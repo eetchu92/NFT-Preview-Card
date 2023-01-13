@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit';
+    background: #000000;
+}
+
+section {
+    height: 543px;
+    width: 327px;
+    background: #15263F;
+    border-radius: 25px;
+}
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-left: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+p {
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #8BACD9;
+    line-height: 1.625rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.ethereum {
+    float: right;
+    color: #00FFF8;
+    transform: translateX(10px);
+}
+
+.days_left {
+    float: right;
+    color: #8BACD9;
+    transform: translateX(10px);
+}
+
+.icon_two {
+    padding-right: 5%;
+}
+
+hr {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #2E405A;
+}
+
+/* styling the last image and attributes*/
+
+.attributes {
+    padding-left: 25px;
+    display: flex;
+}
+.attributes img {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+.attribute_one {
+    word-spacing: .1rem;
+    display: flex;
+    align-items: center;
+    transform: translateX(15px);
+}
+.color_one {
+    color: #8BACD9;
+    margin-right: .3rem;
+}
+.color_two {
+    color: #FFFFFF;
+}
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
